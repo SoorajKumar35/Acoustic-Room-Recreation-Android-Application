@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ARRC - Acoustic Room ReCreation</string>
+    <string name="text_mic">Press \'Go!\' to measure the IR for Mic #</string>
+    <string name="button_go">Go!</string>
+    <string name="button_graph">Graph!</string>
+    <string name="text_ir_calc">Performing Impulse Response calculation…</string>
+    <string name="text_sweep">Performing logarithmic sine sweep…</string>
+    <string name="button_sweeping">Sweeping…</string>
+    <string name="button_calculating">Calculating…</string>
+    <string name="retake">Retake previous IR</string>
+    <string name="main_height_diff">Enter the difference in distance (centimeters) between the height (from the floor) of the speaker and the microphone array</string>
+    <string name="main_speaker_dist">Enter the distance (centimeters) from the speaker\'s tweeter to the microphone</string>
+    <string name="text_calculate_room_shape">Press \'Graph!\' to calculate the room shape</string>
+    <string name="text_error">Error calculating the impulse response! Try again.</string>
+    <string name="roomshape_restart">Run ARRC again</string>
+    <string name="main_begin">Begin Measurements</string>
+    <string name="roomshape_processing">Processing…</string>
+    <string name="main_ip">Enter the IP of the Python server (ex. http://192.168.1.9:8000</string>
+    <string name="main_dokmanic">Run on Dokmanic\'s data</string>
+</resources>

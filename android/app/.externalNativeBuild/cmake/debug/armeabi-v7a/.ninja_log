@@ -1,0 +1,5 @@
+# ninja log v5
+1	171	0	CMakeFiles/roomshape.dir/src/main/cpp/lrslib/lrslong.c.o	68735ee42a2999fa
+0	359	0	CMakeFiles/roomshape.dir/src/main/cpp/roomshape.cpp.o	f7e2cb91e93944bd
+0	928	0	CMakeFiles/roomshape.dir/src/main/cpp/lrslib/lrslib.c.o	791238f408a55646
+928	957	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libroomshape.so	acca7f89b255a6af

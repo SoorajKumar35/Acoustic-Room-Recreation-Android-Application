@@ -1,0 +1,51 @@
+
+{
+	"buildFiles" : [ "/home/mark/Development/ece420/final/android/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/mark/.AndroidSdk/cmake/3.6.4111459/bin/cmake --build /home/mark/Development/ece420/final/android/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"roomshape-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "roomshape",
+			"buildCommand" : "/home/mark/.AndroidSdk/cmake/3.6.4111459/bin/cmake --build /home/mark/Development/ece420/final/android/app/.externalNativeBuild/cmake/release/arm64-v8a --target roomshape",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/mark/.AndroidSdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/.AndroidSdk/ndk-bundle/sysroot  -DLRSLONG -DNO_LONG_LONG -Droomshape_EXPORTS -Dskip_f2c_Undefs -isystem /home/mark/.AndroidSdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/mark/.AndroidSdk/ndk-bundle/sources/android/support/include -isystem /home/mark/.AndroidSdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++14 -frtti -fexceptions -O2 -DNDEBUG  -fPIC   -O2  -c ",
+					"src" : "/home/mark/Development/ece420/final/android/app/src/main/cpp/roomshape.cpp",
+					"workingDirectory" : "/home/mark/Development/ece420/final/android/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/mark/.AndroidSdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/.AndroidSdk/ndk-bundle/sysroot -DLRSLONG -DNO_LONG_LONG -Droomshape_EXPORTS -Dskip_f2c_Undefs  -isystem /home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -O2    -c ",
+					"src" : "/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib/lrslib.c",
+					"workingDirectory" : "/home/mark/Development/ece420/final/android/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/mark/.AndroidSdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/mark/.AndroidSdk/ndk-bundle/sysroot -DLRSLONG -DNO_LONG_LONG -Droomshape_EXPORTS -Dskip_f2c_Undefs  -isystem /home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -O2    -c ",
+					"src" : "/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib/lrslong.c",
+					"workingDirectory" : "/home/mark/Development/ece420/final/android/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/home/mark/Development/ece420/final/android/app/build/intermediates/cmake/release/obj/arm64-v8a/libroomshape.so",
+			"toolchain" : "2847821551040132475"
+		}
+	},
+	"toolchains" : 
+	{
+		"2847821551040132475" : 
+		{
+			"cCompilerExecutable" : "/home/mark/.AndroidSdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/mark/.AndroidSdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

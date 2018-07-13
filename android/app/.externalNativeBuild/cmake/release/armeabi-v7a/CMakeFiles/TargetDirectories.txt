@@ -1,0 +1,3 @@
+/home/mark/Development/ece420/final/android/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/mark/Development/ece420/final/android/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/mark/Development/ece420/final/android/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/roomshape.dir

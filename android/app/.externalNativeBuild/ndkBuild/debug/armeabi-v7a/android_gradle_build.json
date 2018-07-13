@@ -1,0 +1,81 @@
+{
+  "buildFiles": [
+    "/home/mark/Development/ece420/final/android/app/src/main/cpp/Android.mk",
+    "/home/mark/Development/ece420/final/android/app/src/main/cpp/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/mark/.AndroidSdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/mark/Development/ece420/final/android/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/home/mark/Development/ece420/final/android/app/src/main/cpp/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/mark/Development/ece420/final/android/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/mark/Development/ece420/final/android/app/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "roomshape-debug-armeabi-v7a": {
+      "buildCommand": "/home/mark/.AndroidSdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/mark/Development/ece420/final/android/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/home/mark/Development/ece420/final/android/app/src/main/cpp/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/mark/Development/ece420/final/android/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/mark/Development/ece420/final/android/app/build/intermediates/ndkBuild/debug/lib /home/mark/Development/ece420/final/android/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libroomshape.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "roomshape",
+      "files": [
+        {
+          "src": "/home/mark/Development/ece420/final/android/app/src/main/cpp/ext_funcs.cpp",
+          "flags": "\"-gcc-toolchain\" \"/home/mark/.AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi24\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp/Eigen\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/android/support/include\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp\" \"-std\u003dc++11\" \"-frtti\" \"-fexceptions\" \"-DANDROID\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib/lrs.c",
+          "flags": "\"-gcc-toolchain\" \"/home/mark/.AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi24\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib\" \"-DANDROID\" \"-O3\" \"-DLRSLONG\" \"-DB32\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib/lrslib.c",
+          "flags": "\"-gcc-toolchain\" \"/home/mark/.AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi24\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib\" \"-DANDROID\" \"-O3\" \"-DLRSLONG\" \"-DB32\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib/lrsmp.c",
+          "flags": "\"-gcc-toolchain\" \"/home/mark/.AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi24\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib\" \"-DANDROID\" \"-O3\" \"-DLRSLONG\" \"-DB32\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "/home/mark/Development/ece420/final/android/app/src/main/cpp/prune_echoes.cpp",
+          "flags": "\"-gcc-toolchain\" \"/home/mark/.AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi24\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp/Eigen\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/android/support/include\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp\" \"-std\u003dc++11\" \"-frtti\" \"-fexceptions\" \"-DANDROID\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "/home/mark/Development/ece420/final/android/app/src/main/cpp/roomshape.cpp",
+          "flags": "\"-gcc-toolchain\" \"/home/mark/.AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi24\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp/Eigen\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/android/support/include\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp\" \"-std\u003dc++11\" \"-frtti\" \"-fexceptions\" \"-DANDROID\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "/home/mark/Development/ece420/final/android/app/src/main/cpp/trilaterate_back.cpp",
+          "flags": "\"-gcc-toolchain\" \"/home/mark/.AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi24\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp/Eigen\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include\" \"-I/home/mark/.AndroidSdk/ndk-bundle/sources/android/support/include\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp\" \"-std\u003dc++11\" \"-frtti\" \"-fexceptions\" \"-DANDROID\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "/home/mark/Development/ece420/final/android/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libroomshape.so"
+    },
+    "lrs-debug-armeabi-v7a": {
+      "buildCommand": "/home/mark/.AndroidSdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/mark/Development/ece420/final/android/app/src/main/cpp/Android.mk NDK_APPLICATION_MK\u003d/home/mark/Development/ece420/final/android/app/src/main/cpp/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/home/mark/Development/ece420/final/android/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/home/mark/Development/ece420/final/android/app/build/intermediates/ndkBuild/debug/lib /home/mark/Development/ece420/final/android/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/liblrs.a",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "lrs",
+      "files": [
+        {
+          "src": "/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib/lrs.c",
+          "flags": "\"-gcc-toolchain\" \"/home/mark/.AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi24\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib\" \"-DANDROID\" \"-O3\" \"-DLRSLONG\" \"-DB32\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib/lrslib.c",
+          "flags": "\"-gcc-toolchain\" \"/home/mark/.AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi24\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib\" \"-DANDROID\" \"-O3\" \"-DLRSLONG\" \"-DB32\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        },
+        {
+          "src": "/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib/lrsmp.c",
+          "flags": "\"-gcc-toolchain\" \"/home/mark/.AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi24\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/home/mark/Development/ece420/final/android/app/src/main/cpp/lrslib\" \"-DANDROID\" \"-O3\" \"-DLRSLONG\" \"-DB32\" \"-D__ANDROID_API__\u003d24\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"--sysroot\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot\" \"-isystem\" \"/home/mark/.AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "/home/mark/Development/ece420/final/android/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/liblrs.a"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "/home/mark/.AndroidSdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/mark/.AndroidSdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
